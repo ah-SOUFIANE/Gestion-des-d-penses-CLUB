@@ -17,12 +17,10 @@
 %>
 
 
-<!-- ✅ Bandeau rouge en pleine largeur -->
 <div style="width: 100vw; margin-left: calc(-50vw + 50%);" class="bg-danger py-4 text-center">
     <h2 class="text-white fw-bold m-0">Tableau de bord</h2>
 </div>
 
-<!-- ✅ Contenu personnalisé -->
 <div class="container mt-4">
     <div class="card card-welcome">
         <h4>Bienvenue, <%= user.getNom() %> !</h4>
@@ -35,7 +33,6 @@
     </div>
 </div>
 
-<!-- ✅ Chart.js -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
     const labelsUserCat = <%= labelsUserCat.toString().replace("[", "['").replace("]", "']").replace(", ", "', '") %>;
@@ -60,7 +57,6 @@
     });
 </script>
 
-<!-- ✅ Style -->
 <style>
     .card-welcome {
         background: #ffffff;
