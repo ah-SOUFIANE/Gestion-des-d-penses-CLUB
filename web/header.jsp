@@ -51,7 +51,7 @@
 
         <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav mx-auto">
-                <!-- ✅ Lien dynamique du tableau de bord -->
+                <!-- Lien dynamique du tableau de bord -->
                 <li class="nav-item">
                     <a class="nav-link 
                         <%= currentPage.equals("StatistiquesController") || currentPage.equals("UserDashboardController") ? "active" : "" %>"
