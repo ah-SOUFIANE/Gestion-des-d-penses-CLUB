@@ -53,7 +53,6 @@
 </div>
 
 <script>
-    // ✅ Cacher le message de succès après 3 secondes
     setTimeout(function () {
         const alert = document.getElementById("successAlert");
         if (alert) {
