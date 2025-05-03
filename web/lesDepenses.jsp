@@ -9,7 +9,6 @@
 </head>
 <body class="bg-light">
 
-<!-- ✅ Bandeau rouge pleine largeur -->
 <div style="width: 100vw; margin-left: calc(-50vw + 50%);" class="bg-danger py-4 text-center">
     <h2 class="text-white fw-bold m-0">Toutes les Dépenses</h2>
 </div>
