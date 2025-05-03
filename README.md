@@ -43,13 +43,13 @@ Ce projet a pour objectif de centraliser et simplifier la gestion financière d�
 
 ##  6. Diagramme de classe UML :
 
-![Image](https://github.com/user-attachments/assets/205e4475-aa85-4cc2-ab4b-930ea2643b57)
+![Image](https://github.com/user-attachments/assets/fccc821e-7dc6-4d55-a806-b47e3ea8313b)
 
 ---
 
 ##  7. Modèle conceptuel de la base :
 
-![Image](https://github.com/user-attachments/assets/ecff5719-df44-462a-b148-27dc6b58987e)
+![Image](https://github.com/user-attachments/assets/556bc467-d53c-420f-801a-5bff000eef50)
 
 ---
 
