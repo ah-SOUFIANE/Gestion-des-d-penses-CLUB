@@ -7,12 +7,10 @@
     List<Utilisateur> utilisateurs = (List<Utilisateur>) request.getAttribute("utilisateurs");
 %>
 
-<!-- ✅ Bandeau rouge pleine largeur -->
 <div style="width: 100vw; margin-left: calc(-50vw + 50%);" class="bg-danger py-4 text-center">
     <h2 class="text-white fw-bold m-0">Gestion des utilisateurs</h2>
 </div>
 
-<!-- ✅ Contenu centré avec espacement -->
 <div class="container mt-4">
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h5 class="mb-0">Liste des utilisateurs enregistrés</h5>
