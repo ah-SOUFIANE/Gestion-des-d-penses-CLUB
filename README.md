@@ -76,3 +76,5 @@ Ce projet a pour objectif de centraliser et simplifier la gestion financi√®re d‚
 ![Image 2](images/i8.png)
 ![Image 3](images/i9.png)
 
+##  10.  video:
+https://github.com/user-attachments/assets/a9def8b1-f963-4664-999f-bcad3e2b937f
