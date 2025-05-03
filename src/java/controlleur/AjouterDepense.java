@@ -29,7 +29,6 @@ public class AjouterDepense extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        // ✅ Chargement des listes
         List<Categorie> categories = categorieService.findAll();
         List<Club> clubs = clubService.findAll();
 
@@ -47,10 +46,8 @@ public class AjouterDepense extends HttpServlet {
             HttpSession session = request.getSession(false);
             Utilisateur utilisateurSession = (Utilisateur) session.getAttribute("utilisateur");
 
-            // ✅ Recharge l'utilisateur depuis la base
             Utilisateur utilisateur = utilisateurService.findById(utilisateurSession.getId());
 
-            // ✅ Paramètres
             String libelle = request.getParameter("libelle");
             double montant = Double.parseDouble(request.getParameter("montant"));
             Date date = new SimpleDateFormat("yyyy-MM-dd").parse(request.getParameter("date"));
@@ -61,7 +58,6 @@ public class AjouterDepense extends HttpServlet {
             Categorie categorie = categorieService.findById(catId);
             Club club = clubService.findById(clubId);
 
-            // ✅ Création de la dépense
             Depense dep = new Depense();
             dep.setLibelle(libelle);
             dep.setMontant(montant);
@@ -70,7 +66,6 @@ public class AjouterDepense extends HttpServlet {
             dep.setClub(club);
             dep.setUtilisateur(utilisateur);
 
-            // ✅ Enregistrement
             boolean ok = depenseService.create(dep);
 
             if (ok) {
