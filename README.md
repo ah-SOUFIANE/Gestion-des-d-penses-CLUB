@@ -43,7 +43,7 @@ Ce projet a pour objectif de centraliser et simplifier la gestion financi√®re d‚
 
 ##  6. Diagramme de classe UML :
 
-![Diagramme de classe](images/diagramme%20de%20classe.png)
+![Image](https://github.com/user-attachments/assets/983d9f76-f4cf-44b7-8082-624d61d31a78)
 
 ---
 
