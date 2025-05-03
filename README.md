@@ -62,7 +62,3 @@ Ce projet a pour objectif de centraliser et simplifier la gestion financi√®re d‚
 ![Image 4](images/4.png)
 ![Image 5](images/5.png)
 ![Image 6](images/6.png)
-![Image 7](images/7.png)
-![Image 8](images/8.png)
-![Image 9](images/9.png)
-![Image 10](images/10.png)
