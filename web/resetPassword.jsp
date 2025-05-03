@@ -13,7 +13,6 @@
     <div class="card mx-auto p-4 shadow" style="max-width: 400px;">
         <h3 class="text-center mb-4 text-dark">Réinitialiser le mot de passe</h3>
 
-        <!-- ✅ Affichage des messages d'erreur -->
         <c:choose>
             <c:when test="${param.error == 'notfound'}">
                 <div class="alert alert-danger text-center">Adresse email introuvable.</div>
@@ -23,7 +22,6 @@
             </c:when>
         </c:choose>
 
-        <!-- ✅ Formulaire -->
         <form action="ResetPasswordController" method="post">
             <div class="mb-3">
                 <label class="form-label">Email</label>
