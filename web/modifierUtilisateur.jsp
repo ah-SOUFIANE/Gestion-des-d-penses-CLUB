@@ -6,12 +6,10 @@
     Utilisateur utilisateur = (Utilisateur) request.getAttribute("utilisateur");
 %>
 
-<!-- ✅ Bandeau rouge pleine largeur sans espace -->
 <div style="width: 100vw; margin-left: calc(-50vw + 50%);" class="bg-danger py-4 text-center">
     <h2 class="text-white fw-bold m-0">Modifier l'utilisateur</h2>
 </div>
 
-<!-- ✅ Espace clair entre le titre et le formulaire -->
 <div class="container mt-4">
     <div class="card shadow-sm p-4">
         <form action="UtilisateurController" method="post">
