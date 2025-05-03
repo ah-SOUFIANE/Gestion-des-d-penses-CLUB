@@ -22,12 +22,12 @@
     if (dataUser == null) dataUser = new ArrayList<Double>();
 %>
 
-<!-- ✅ Bandeau rouge plein écran -->
+
 <div style="width: 100vw; margin-left: calc(-50vw + 50%);" class="bg-danger py-4 text-center">
     <h2 class="text-white fw-bold m-0">Tableau de bord</h2>
 </div>
 
-<!-- ✅ Graphiques dans une seule rangée -->
+
 <div class="container mt-4">
     <div class="row">
         <!-- Catégorie -->
@@ -56,7 +56,7 @@
     </div>
 </div>
 
-<!-- ✅ Chart.js -->
+
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <script>
