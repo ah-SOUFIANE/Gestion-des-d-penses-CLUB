@@ -17,7 +17,7 @@ public class InscriptionController extends HttpServlet {
         Utilisateur user = new Utilisateur();
         user.setNom(nom);
         user.setEmail(email);
-        user.setMotDePasse(motdepasse); // Tu peux aussi chiffrer ici
+        user.setMotDePasse(motdepasse); 
         user.setRole("user");
 
         dao.create(user);
