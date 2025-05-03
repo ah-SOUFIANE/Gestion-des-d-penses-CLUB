@@ -6,12 +6,10 @@
     Categorie categorie = (Categorie) request.getAttribute("categorie");
 %>
 
-<!-- ✅ Bandeau rouge pleine largeur -->
 <div style="width: 100vw; margin-left: calc(-50vw + 50%);" class="bg-danger py-4 text-center">
     <h2 class="text-white fw-bold m-0">Modifier la catégorie</h2>
 </div>
 
-<!-- ✅ Contenu espacé et centré -->
 <div class="container mt-4">
     <div class="card p-4 shadow-sm">
         <form action="CategorieController" method="post">
