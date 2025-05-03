@@ -10,25 +10,21 @@
 </head>
 <body class="bg-light">
 
-<!-- ✅ Bandeau rouge plein écran -->
 <div style="width: 100vw; margin-left: calc(-50vw + 50%);" class="bg-danger py-4 text-center">
     <h2 class="text-white fw-bold m-0">Ajouter une dépense</h2>
 </div>
 
-<!-- ✅ Conteneur espacé -->
 <div class="container mt-4">
 
-    <!-- ✅ Message de succès -->
     <c:if test="${success}">
         <div class="alert alert-success text-center">
-            ✅ Dépense ajoutée avec succès !
+             Dépense ajoutée avec succès !
         </div>
     </c:if>
 
-    <!-- ✅ Message d’erreur -->
     <c:if test="${error}">
         <div class="alert alert-danger text-center">
-            ❌ Une erreur est survenue. Veuillez réessayer.
+             Une erreur est survenue. Veuillez réessayer.
         </div>
     </c:if>
 
@@ -78,7 +74,6 @@
     </form>
 </div>
 
-<!-- ✅ Validation côté client -->
 <script>
     (function () {
         'use strict';
